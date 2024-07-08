@@ -10,6 +10,9 @@ body{
     display: flex;
 position: relative;
 }
+.container-3>a{
+    text-decoration: none;
+}
 .sidebar{
     position: sticky;
     left: 0;
@@ -41,7 +44,7 @@ main{
     flex-direction: column;
     gap: 10px;
 }
-.container-3>div>p{
+.container-3>a>div>p{
 font-family: Poppins;
 font-size: 14px;
 font-weight: 400;
@@ -58,6 +61,9 @@ transition: all 0.5s;
     gap: 16px;
     align-items: start;
     
+}
+.box-wrapper>a{
+    text-decoration: none;
 }
 .boz{
     display: flex;
@@ -129,7 +135,12 @@ header{
     border-radius: 200px;
     background-color:#1F1E24;
 }
-.searche>input{
+.searche>div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.searche>div>input{
     background-color: transparent;
     outline: none;
     border: none;
@@ -137,7 +148,6 @@ header{
 font-size: 14px;
 font-weight: 400;
 line-height: 21px;
-text-align: left;
 color: #637381;
 }
 .imges{
@@ -352,4 +362,12 @@ color: #919EAB;
 .card_end-img:hover>svg{
     color: #1F1E24;
     transition: all 0.5s;
+}
+.foto_wrapper>img{
+    width: 356px;
+    height: 236px;
+}
+.foto_wrapper{
+    background-color: #1b1922;
+    border-radius: 20px;
 }
